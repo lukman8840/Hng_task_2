@@ -1,0 +1,32 @@
+.nav-container {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid #0E464F;
+    padding: 5px 15px;
+    z-index: 1000;
+    left: 50px;
+    top: 10px;
+    border-radius: 22px;
+    background-color: #051e22;
+    margin: 20px;
+}
+
+.nav-list a {
+    padding: 12px;
+    color: rgb(158, 157, 157);
+    text-decoration: none;
+    margin: 10px;
+}
+
+.nav-list a:hover {
+    color: #fff;
+}
+
+.booked {
+    padding: 15px 25px;
+}

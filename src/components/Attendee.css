@@ -1,0 +1,137 @@
+body {
+    background-color: #02191D;
+    color: #e0e1dd;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-container {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    width: 530px;
+    margin-top: 50%;
+    text-align: center;
+    color: #fff;
+    min-height: 500px;
+    border: 1px solid #0E464F;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .form-info {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .form-title {
+    font-weight: lighter;
+    font-size: 20px;
+  }
+  
+  .step-indicator {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+  .upload-section {
+   display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #0E464F;
+    border-radius: 10px;
+  }
+  .upload-section p {
+    margin-bottom: 0px;
+    text-align: justify;
+    margin: 10px;
+    font-weight: lighter;
+    font-size: 14px;
+    
+  }
+  
+  .upload-box {
+    background-color: #0E464F;
+    padding: 20px 10px;
+    width: 120px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #02191D;
+    border-radius: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #0E464F;
+    resize: none;
+    background-color: transparent;
+    color: #fff;
+  }
+   textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #0E464F;
+    resize: none;
+    background-color: transparent;
+  }
+  label {
+    text-align: justify;
+    font-size: 12px;
+  }
+  .email-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #02191D;
+    border: 1px solid #02191D;
+    padding: 10px;
+    border-radius: 5px;
+   
+  }
+  textarea {
+    width: 100%;
+    padding: 50px;
+  }
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .back-button {
+    width: 230px;
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #0E464F;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .back-button:hover {
+    opacity: 0.4;
+  }
+  .next-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .next-button {
+    background-color: #00a8e8;
+
+  }
+  
