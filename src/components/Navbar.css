@@ -30,3 +30,49 @@
 .booked {
     padding: 15px 25px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .nav-container {
+        left: 0;
+        width: 95%;
+        margin: 10px auto;
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-list a {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .booked {
+        padding: 12px 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-container {
+        display: none;
+        height: 10vh;
+        border-radius: 0;
+        padding: 8px;
+    }
+
+    .nav-list a {
+        font-size: 14px;
+    }
+
+    .booked {
+        padding: 10px 18px;
+        font-size: 12px;
+    }
+}

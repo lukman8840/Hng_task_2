@@ -134,4 +134,78 @@ body {
     background-color: #00a8e8;
 
   }
+
+
+
+
+  @media (max-width: 768px) {
+    .form-container {
+      width: 90%;
+      min-height: auto;
+      margin-top: 20%;
+      padding: 15px;
+    }
+  
+    .form-info {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .upload-box {
+      width: 100px;
+      height: 120px;
+    }
+  
+    .email-input {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .button-group {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .back-button,
+    .next-button {
+      width: 100%;
+      margin: 5px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .form-container {
+      width: 95%;
+      margin-top: 10%;
+    }
+  
+    .form-title {
+      font-size: 18px;
+    }
+  
+    .step-indicator {
+      font-size: 12px;
+    }
+  
+    .upload-box {
+      width: 80px;
+      height: 100px;
+      padding: 10px;
+    }
+  
+    textarea {
+      padding: 20px;
+    }
+  
+    .button-group {
+      flex-direction: column;
+    }
+  
+    .back-button,
+    .next-button {
+      width: 100%;
+      padding: 8px;
+    }
+  }
+  
   

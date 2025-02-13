@@ -56,3 +56,42 @@ p {
 .booked:hover {
     background-color: #ddd;
 }
+
+
+
+
+@media screen and (max-width: 600px) {
+    .main-cover {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .booked {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .booked {
+        font-size: 12px;
+        padding: 8px;
+    }
+}

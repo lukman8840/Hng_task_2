@@ -165,3 +165,86 @@ body{
 .next-button:hover {
     background: #005f87;
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+    .select-container {
+        padding-top: 30px;
+    }
+
+    .card {
+        width: 90%;
+        margin-top: 20%;
+        min-height: 450px;
+        padding: 15px;
+    }
+
+    .card-header h2 {
+        font-size: 18px;
+    }
+
+    .card-header h4 {
+        font-size: 12px;
+    }
+
+    .event-title {
+        font-size: 20px;
+    }
+
+    .event-content p {
+        font-size: 14px;
+    }
+
+    .ticket-options {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .ticket-button {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .cancel-button, 
+    .next-button {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 95%;
+        margin-top: 15%;
+        min-height: auto;
+        padding: 10px;
+    }
+
+    .event-title {
+        font-size: 18px;
+    }
+
+    .event-description, 
+    .event-details {
+        font-size: 12px;
+    }
+
+    .ticket-select {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .button-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cancel-button, 
+    .next-button {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
