@@ -9,7 +9,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     width: 530px;
-    margin-top: 50%;
+    margin-top: 55vh;
     text-align: center;
     color: #fff;
     min-height: 500px;
@@ -17,6 +17,7 @@ body {
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
+  
   .form-info {
     margin-top: 10px;
     display: flex;
@@ -39,6 +40,10 @@ body {
     gap: 10px;
     
   }
+  .attendee-container {
+    padding-top: 100px; 
+}
+
   .upload-section {
    display: grid;
     justify-content: center;
@@ -72,7 +77,8 @@ body {
   }
   
   input {
-    padding: 10px;
+    width: 500px;
+    padding: 10px 20px;
     border-radius: 5px;
     border: 1px solid #0E464F;
     resize: none;
@@ -80,6 +86,7 @@ body {
     color: #fff;
   }
    textarea {
+    width: 100%;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #0E464F;
@@ -90,6 +97,7 @@ body {
     text-align: justify;
     font-size: 12px;
   }
+  
   .email-input {
     display: flex;
     align-items: center;
@@ -98,7 +106,6 @@ body {
     border: 1px solid #02191D;
     padding: 10px;
     border-radius: 5px;
-   
   }
   textarea {
     width: 100%;

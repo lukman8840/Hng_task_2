@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Attendee.css';
 import Navbar from '../components/Navbar';
 import { useNavigate } from 'react-router-dom';
 
 function Attendee() {
-    const navigate = useNavigate();  // Use lowercase variable name
+    const navigate = useNavigate(); 
+
+    const [email, setEmail] = useState('')
 
     return (
         <div className="attendee-container">
@@ -23,13 +25,20 @@ function Attendee() {
                         </div>
                     </div>
 
-                    <label htmlFor="name">Enter your name</label>
+                    <label htmlFor="name">Enter your name *</label>
                     <input type="text" id="name" name="name" />
 
                     <label htmlFor="email">Enter your email *</label>
                     <div className="email-input">
                         <span className="email-icon">📧</span>
-                        <input type="email" id="email" className='email' name="email" value="hello@avioflagos.io" readOnly />
+                        <input 
+                            type="email" 
+                            id="email" 
+                            className='email' 
+                            name="email" 
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            />
                     </div>
 
                     <label htmlFor="project">About the project</label>
@@ -37,7 +46,16 @@ function Attendee() {
 
                     <div className="button-group">
                         <button type="button" className="back-button" onClick={() => navigate('/select-ticket')}>Back</button>
-                        <button type="submit" className="next-button">Get My Free Ticket</button>
+                        <button 
+                            type="submit" 
+                            className="next-button" 
+                            onClick={(e) => {
+                                e.preventDefault();
+                                navigate('/ticket-confirmation')
+                            }}
+                            >
+                                Get My Free Ticket
+                            </button>
                     </div>
                 </form>
             </div>

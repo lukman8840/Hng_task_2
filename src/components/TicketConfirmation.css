@@ -1,0 +1,135 @@
+body {
+    background-color: #082c35;
+    font-family: sans-serif;
+    color: #fff;
+}
+.confirmation-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.confirm-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.confirmation-card {
+    width: 600px;
+    margin-top: 10%;
+    background-color: #0a373f;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.confirmation-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+.step-info {
+    font-size: 14px;
+    color: #aaa;
+}
+.divider {
+    border: none;
+    height: 2px;
+    background: #128c9e;
+    margin: 10px 0;
+}
+.ticket-message{
+    height: 10vh;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-top: 15px;
+}
+
+.ticket {
+    margin-top: 0px;
+    max-width: 500px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    background: #003238;
+    border-radius: 8px;
+    position: relative;
+    border: 2px solid #fff;
+}
+.qr-code {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    color: #fff;
+    border-radius: 8px;
+}
+.event-name {
+    font-size: 40px;
+    text-align: justify;
+    margin-left: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+.event-location {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 10px;
+}
+.event-date {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 0px;
+
+}
+.ticket-right {
+    width: 100px;
+    text-align: center;
+    border: 3px solid #fff;
+}
+.ticket-type{
+    font-size: 18px;
+    background-color: red;
+    border-radius: 25%;
+    font-weight: bold;
+    color: #f4c542;
+}
+.ticket-vertical {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 4px;
+    text-orientation: mixed;
+    writing-mode: vertical-lr;
+}
+.user-name {
+    font-size: 12px;
+    color: #ddd;
+    margin-top: 10px;
+}
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.book-button, .download-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #128c9e;
+    transition: 0.3s ease-in-out;
+}
+.book-button {
+    background: transparent;
+    color: #128c9e;
+}
+.download-button {
+    background: #128c9e;
+    color: #fff;
+}
+.download-button:hover {
+    background: #0e5b64;
+}
